@@ -1,0 +1,37 @@
+<<<<<Chapter 3>>>>>
+<ZenerDiode>
+<.>Works(conducts) on FB and RB(breakdown)Z.
+<.>Fb = 0.7v
+<.>Zb = ~~
+<.>Zener Impidance, Z = ∆V/∆I..
+<->After knee current is the range, (IZk, IZt, Izm)
+<*>Application : Voltage Regulator, Fixed Refrence Voltage.
+<->Once the Z.d enters the Zener effect,vary in current result in very small change in voltage, thus it acts like a V.Reg.
+</ZenerDiode>
+
+<Varactor>
+
+<*>Basically, it's a variable capacitor. 
+<*>As Rb++, C--.. 
+<->Because widening of depletion region increases the distance apart the both ends(Plates). 
+<-->Above stament is proved by C= ke A /d.
+
+</Varactor>
+
+
+<LED>
+
+<*>Recombination of holes with e_ causes large amount of energy released in the form of photon.
+<*>Process of emitting light is called ELECTROLUMINESCENCE.
+<*>Doping with impurities determines the wavelength of emitted light.
+<*>Vb 1.5v-3.2v.
+<*>Application : 7-segment display, LED torch light.
+
+</LED>
+
+<PhotoDiode>
+
+<*>Works on Reverse Bias condition as well.
+
+</PhotoDiode>
+
