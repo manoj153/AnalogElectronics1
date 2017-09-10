@@ -1,0 +1,44 @@
+<DC PowerSupply>
+
+<*>[Rectifier]-->[Filter]-->[Regulator]-->[Regulator]
+<->Filters basicaly eliminates fluctuations in rectified voltage.
+<-->Regulators, Maintains a constant voltage.
+
+</DC PowerSupply>
+
+<Half-Wave-Rectifier>
+
+<*>Only postivie cycle produces a DC output, Procduce same shape as Vin.
+<->Output will lost negative cycle and and postive cycle is (Vin - 0.7v), Negative cycle DC output = 0.
+<-->Simply because of Diode charestics that only FB at positive cycle and some voltage drop across.
+<*>PIV = Vin.
+
+</Half-Wave-Rectifier>
+
+<Full-Wave-Rectifier>
+
+<*>Vout = (Vin/2)-0.7v
+<*>Both +pCycle and -nCycle of Sinosudiol AC input is rectified to DC output.
+<*> Related Formula
+<-> (n = n1/n2) # 
+<--> (n*Vin = Vout)
+
+</Full-Wave-Rectifier>
+
+<Full-Wave-Bridge-Rectifier>
+
+<*> Vout = Vin - 1.4v
+<-> Because of two diode in FB drop.
+<*> PIV = Vin - 0.7v
+
+</Full-Wave-Bridge-Rectifier>
+
+<Diode-Limiter>
+<*> Negative Voltage Limiter.
+<-> Series R1 from source parallel with Diode (RB in +veCycle).
+<*> During -veCycle, I only flows through D1
+<-> Forward Bias and least resistance path 
+<-->Thus Vout = 0.7v
+<*> Postive Voltage Limiter Opposite of above.
+
+</Diode-Limiter>
